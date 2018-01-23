@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5ADD1021201704FA0058004D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD1020201704FA0058004D /* main.c */; };
+		5ADD1029201711340058004D /* tpcOpera.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD1028201711340058004D /* tpcOpera.c */; };
+		5ADD102B201721FD0058004D /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD102A201721FD0058004D /* stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		5ADD101D201704FA0058004D /* Toplogincal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Toplogincal; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADD1020201704FA0058004D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5ADD1027201705B60058004D /* custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = custom.h; sourceTree = "<group>"; };
+		5ADD1028201711340058004D /* tpcOpera.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tpcOpera.c; sourceTree = "<group>"; };
+		5ADD102A201721FD0058004D /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				5ADD1020201704FA0058004D /* main.c */,
+				5ADD1027201705B60058004D /* custom.h */,
+				5ADD1028201711340058004D /* tpcOpera.c */,
+				5ADD102A201721FD0058004D /* stack.c */,
 			);
 			path = Toplogincal;
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADD102B201721FD0058004D /* stack.c in Sources */,
 				5ADD1021201704FA0058004D /* main.c in Sources */,
+				5ADD1029201711340058004D /* tpcOpera.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
