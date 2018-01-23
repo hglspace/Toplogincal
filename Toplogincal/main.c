@@ -7,9 +7,10 @@
 //
 
 #include <stdio.h>
-
+#include "custom.h"
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    struct Graph g=init();
+    tpcSort(g);
     return 0;
 }
